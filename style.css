@@ -1,0 +1,145 @@
+
+body{
+    background-color: rgb(230, 229, 229) !important;
+    
+}
+
+
+a{
+    text-decoration: none !important;
+}
+
+.over:hover{
+    box-shadow: 10px 6px 10px rgb(74, 73, 73) ,
+    inset 3px 2px 10px rgb(99, 97, 97),
+    inset 1px 2px 30px rgb(245, 219, 219);
+    
+transition: 1s;
+}
+.two{
+    margin: 0px !important;
+}
+
+.box{
+    border-radius: 15px !important;
+}
+
+
+
+
+@media screen and (min-width: 966px){
+    .over{
+        min-width:150px;
+    }
+    .photo{
+        padding-left:24px !important ;
+    }
+
+}
+
+    
+
+ @media screen and (max-width: 966px) {
+    .over{
+        min-width:130px;
+    }
+    .photo{
+        padding-left:14px !important ;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 771px) {
+    .over{
+        min-width:100px;
+    }
+
+    .photo{
+       width: 5px !important;
+    }
+    
+}
+
+
+
+
+@media screen and (min-width: 1500px){
+
+    .infyrec{
+    height: 800px ;
+     }
+     .end{
+        margin-top: 350px !important;
+     }
+
+}
+
+@media screen and (max-width: 1500px){
+
+    .infyrec{
+    height: 800px ;
+     }
+     .end{
+        margin-top: 350px !important;
+     }
+
+}
+
+@media screen and (max-width: 1400px){
+
+    .infyrec{
+    height: 700px;
+     }
+     .end{
+        margin-top: 260px !important;
+     }
+}
+
+
+
+ @media screen and (max-width: 1218px){ 
+
+    .infyrec{
+    height: 625px ;
+     }
+     .end{
+        margin-top: 200px !important;
+     }
+
+}
+@media screen and (max-width: 1026px){
+
+    .infyrec{
+    height: 670px ;
+     }
+     .end{
+        margin-top: 250px !important;
+     }
+
+}
+
+
+@media screen and (max-width: 900px){
+
+    .infyrec{
+    height: 630px ;
+     }
+     .end{
+        margin-top: 200px !important;
+     }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .infyrec{
+    height: 600px ;
+     }
+     .end{
+        margin-top: 180px !important;
+     }
+
+}
+
